@@ -1,12 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+header{
+  background-color: rgb(140, 75, 200);
+  margin: 0px 0px;
+  height: 180px;
+  width: 100%;
 
+}
+body {
+background-color: rgb(208, 206, 206);
+}
+#campo{
+width: 28%;
+height: 30px;
+margin-left: 35%;
+border: 1px solid #ffffff;
+border-radius: 5px
+}
+#check{
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  padding: 4px;
+}
+input[type="checkbox"]:checked + label{
+font-style: italic;
+}
+#add{
+  height: 33px;
+  background-color: rgb(172, 136, 207);
+  border-radius: 5px;
+  border: 1px solid #c1a3cf;
+  
+}
+#exc, #edt{
+  margin: 5px;
+  background-color: #c9aad7;
+  border-radius: 5px;
+  border: 1px solid #c1a3cf;
+  display: inline;
+  align-content: space-around;
+  
+}
+li{
+  list-style:none;
+  padding: 8px 15px;
+  width: 10%;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 15px;
+  margin-inline: auto;
+
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
